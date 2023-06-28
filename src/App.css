@@ -1,0 +1,51 @@
+.header{
+  display: flex;
+  flex-direction: column;
+  background-color:lightblue;
+  min-height: 200px;
+  justify-content:space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  /* align-items: center; */
+}
+
+.header .inner{
+/* background-color:blue; */
+/* border: 2px solid blue; */
+font-weight: 100px;
+color: white;
+}
+.inner input{
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+.inner button{
+  border: none;
+  width: 100px;
+  height: 30px;
+  letter-spacing: 2px;
+  background-color: blue;
+  color:white;
+  font-weight: 800;
+  transition: border-radius 2s ease;
+}
+.inner button:hover{
+  border-radius: 50px;
+  background-color: black;
+}
+
+.output{
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 600px;
+  background-color: peru;
+  justify-content:space-around;  
+  align-items: flex-start;
+
+}
+.output .outputitem{
+  margin-top: 50px;
+  width: 200px;
+  height:200px;
+}
