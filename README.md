@@ -1,1 +1,1 @@
-# Thavasumoorthi-S-ImageGalleryReact_js using MERN
+ImageGalleryReact_js using MERN Stack Technology
